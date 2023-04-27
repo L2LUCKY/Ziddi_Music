@@ -13,10 +13,10 @@ API_HASH = getenv("API_HASH", "abf9b83f9ca40cf9f5ba9bf6e6afaa8b")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://starxrobo:starxrobo@cluster0.efstcnr.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-773519179"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Dabang Music")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5999224089").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AnonymousX1025/AnonX
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/sexyaaditya")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+Qy6kmF6v8d9iMmY1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BaapOnFire")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DabangTheBrand")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
