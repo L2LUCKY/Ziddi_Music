@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://aadityalegend29:aadityaxd29@cluster0.agz17i3.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001954221487"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Dabang Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐇𝐄𝐑𝐎 𝐱 𝐌𝐔𝐒𝐈𝐂")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5999224089").split()))
 
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/b8ec8da5949144c58aa89.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/b980a9c94a9ad07d68a5c.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/b8ec8da5949144c58aa89.jpg",
+    "https://graph.org/file/8e904425b527cb3045de2.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/56d1760224589ee370186.jpg"
+            PING_IMG_URL = "https://graph.org/file/8e904425b527cb3045de2.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/56d1760224589ee370186.jpg"
+            START_IMG_URL = "https://telegra.ph/file/b980a9c94a9ad07d68a5c.jpg"
